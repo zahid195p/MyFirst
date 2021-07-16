@@ -1,0 +1,125 @@
+/* @charset "utf-8";
+#headerid #mainlogo1 {
+    width: 40px;
+    height: 25px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+#mainlogo1 {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+#headerid {
+    background-color: #EBD5BD;
+    border-color: #000000;
+    border-style: solid;
+}
+.headermenulist {
+    display: inline;
+    position: absolute;
+    right: 4%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+#home {
+    display: inline;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#about {
+    display: inline;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#contact {
+    display: inline;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.homelink {
+    color: #000000;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-decoration: none;
+    font-size: x-large;
+    
+}
+.aboutlink {
+    color: #000000;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: x-large;
+    text-decoration: none;
+}
+.contactlink {
+    color: #000000;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+
+@media (max-width: 1004px){
+}
+.frame1 {
+    min-width: 90%;
+    height: 550px;
+}
+#mainBody .frame2 {
+    min-width: 90%;
+    height: 550px;
+}
+
+#ali {
+    font-size: 50px;
+    padding-top: 3rem;
+}
+#butt {
+    color: blue;
+    background-color: bisque;
+    margin: 1rem;
+    padding: 1em;
+    border-radius: 50px;
+}
+#butt:hover {
+    background-color: aqua;
+    padding: 30px;
+    font-size: 21px;
+    width: 14rem;
+    transition: 1s;
+    
+} */
+
+.box {
+    border: 1px solid black;
+}
+
+.outer {
+    border: 1px solid black;
+}
+
+.section {
+    display: none;
+}
+
+.section {
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.heading:hover + .section {
+    display: block;
+    color: brown;
+}
+
+outer {
+    max-width: str;
+}
